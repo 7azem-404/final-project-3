@@ -17,12 +17,10 @@
         rel="stylesheet">
 </head>
 
-<body id="body">
-
-
+<body>
     <header class="section home" id="home">
-        <nav id="navID" class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
-            <a class="navbar-brand" href="#" style="color: #50658e;">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;">
+            <a class="navbar-brand" href="#">
                 C<svg class="vir" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="virus" role="img"
                     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
                     <path fill="currentColor"
@@ -30,10 +28,9 @@
                     </path>
                 </svg>VID<span>-19</span>
             </a>
-            <button id="list" class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span><i id="list" class="fas fa-align-justify"></i></span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -60,9 +57,6 @@
                         <a class="nav-link" href="#news">News</a>
                     </li>
                 </ul>
-                <div class="bottom">
-                    <button id="dark" type="button" class="btn btn-dark">Dark</button>
-                </div>
             </div>
         </nav>
 
@@ -106,8 +100,8 @@
                                 <p class="num">4,556,091</p>
                             </div>
                         </div>
-                        <p class="italic"><em>* Last updated: Dec 29, 2022, 12:10 AM Ismailia/ Egypt By-Basmga Team
-                            </em></p>
+                        <p class="italic"><em>* Last updated: July 7, 2021, 03:30 AM Ismailia/ Egypt By-Hazem Abd
+                                El-Rahman</em></p>
                     </div>
                     <div class="col-12 col-lg-6 banner-img">
                         <img src="./img/header-a.png">
@@ -351,7 +345,7 @@
         </div>
     </section>
 
-
+    
 
 
 
@@ -572,6 +566,227 @@
     </section>
 
 
+    <!-- ---------treatment-------treatment-------treatment-------treatment-------treatment-------treatment--------- -->
+
+
+    <!-- <section class="section treatment" id="treatment">
+        <div class="container">
+            <div class="row">
+                <div class="treatment-care col-12 col-lg-7">
+                    <h3 class="style-h3-tre" style="color:red; font-size: 21px;">Be Carefull & Stay Safe</h3>
+                    <h2 class="style-h2-tre"
+                        style="font-weight: bolder; font-size: 42px; color: red; margin-bottom: 40px;">Treatment For
+                        Coronavirus</h2>
+                    <p>
+                        <span> To date, there is no vaccine and no specific antiviral medicine to prevent
+                            or treat COVID-2019. <br> </span> However, those affected should receive care to relieve
+                        symptoms.
+                        People with serious illness should be hospitalized. Most patients recover thanks to supportive
+                        care.</p>
+                    <p> Antibiotics do not help, as they do not work against viruses. Treatment aims to
+                        relieve the symptoms while your body fights the illness. You'll need to stay in isolation, away
+                        from other people, until you have recovered.</p>
+                </div>
+                <div class="treatment-self-col col-12 col-lg-5">
+                    <div class="treatment-self">
+                        <h5>Self Care</h5>
+                        <p>
+                            If you have mild symptoms, stay at home until you’ve recovered. You can relieve your
+                            symptoms if you:
+                        </p>
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="text"> Rest and sleep</div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="text">Keep warm</div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="text">Drink plenty of liquids</div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </div>
+                                <div class="text">
+                                    Use a room humidifier or take a hot shower to help ease a sore throat and cough
+                                </div>
+                            </li>
+                        </ul>
+                        <h5>Medical Treatments</h5>
+                        <p>
+                            If you develop a fever, cough, and have difficulty breathing, promptly seek medical care.
+                            Call in advance and tell your health provider of any recent travel or recent contact with
+                            travelers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+    <!-- ---------protect-------protect-------protect-------protect-------protect-------protect--------- -->
+
+    <!-- <section class="section protect" id="protect">
+        <div class="container">
+            <div class="protect-text">
+                <h3 class="style-h3-pro" style="color:red; font-size: 21px;">Do’s & Don’ts</h3>
+                <h2 class="style-h2-pro" style="font-weight: bolder; font-size: 42px; color: red; margin-bottom: 40px;">
+                    Protect Yourself</h2>
+                <p style="color: #465675; font-size: 18px;">The best thing you can do now is plan for how you can adapt
+                    your daily routine. Take
+                    few steps to protect yourself as Clean your hands often, Avoid close contact, Cover coughs and
+                    sneezes, clean daily used surfaces etc. The best way to prevent illness is to avoid being exposed to
+                    this virus.</p>
+            </div>
+            <div class="protect-imgs">
+                <div class="row">
+                    <div class="protect-imgs1 col-6 col-lg-3">
+                        <div class="box">
+                            <div class="text">
+                                <p>Avoid Close Contact</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div class="img">
+                                <img src="./img/donts-a.png">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="text">
+                                <p>Don’t Touch Face</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div class="img">
+                                <img src="./img/donts-b.png">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="text">
+                                <p>Social Distancing</p>
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-times-circle"></i>
+                            </div>
+                            <div class="img">
+                                <img src="./img/donts-c.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="protect-imgs2 col-12 col-lg-5">
+                        <img src="img/protect.png">
+                    </div>
+                    <div class="protect-imgs3 col-6 col-lg-3">
+                        <div class="box">
+                            <div class="img">
+                                <img src="./img/dos-a.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="text">
+                                <p>Wash Your Hands</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img">
+                                <img src="./img/dos-b.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="text">
+                                <p>Drink Much Watar</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="img">
+                                <img src="./img/dos-c.png">
+                            </div>
+                            <div class="icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="text">
+                                <p>Use Face Mask</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ -->
+
+    <!-- ---------latest-------latest-------latest-------latest-------latest-------latest--------- -->
+
+
+
+    <!-- <section class="section latest" id="latest">
+        <div class="container">
+            <div class="latest-text">
+                <h3 class="style-h3-late" style="color:red; font-size: 21px;">Recent From Blog</h3>
+                <h2 class="style-h2-late" style="font-weight: bolder; font-size: 42px; color: red; margin-bottom:40px;">
+                    Latest Update</h2>
+            </div>
+            <div class="latest-boxs">
+                <div class="row justify-content-between">
+                    <div class="latest-box col-12 col-lg-4">
+                        <div class="box-img-text">
+                            <div class="img">
+                                <img src="./img/blog-a.jpg">
+                            </div>
+                            <div class="text">
+                                <h5>Caring for someone at home</h5>
+                                <p class="style-p">Most people who get sick with COVID-19 will have only mild illness
+                                    and should recover at home. Care at home can help stop the spread of COVID-19</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-box col-12 col-lg-4">
+                        <div class="box-img-text">
+                            <div class="img">
+                                <img src="./img/blog-b.jpg">
+                            </div>
+                            <div class="text">
+                                <h5>15 ways to keep safe and healthy</h5>
+                                <p class="style-p">Most people who get sick with COVID-19 will have only mild illness
+                                    and should recover at home. Care at home can help stop the spread of COVID-19</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-box col-12 col-lg-4">
+                        <div class="box-img-text">
+                            <div class="img">
+                                <img src="./img/blog-c.jpg">
+                            </div>
+                            <div class="text">
+                                <h5>If You Think You Are Sick</h5>
+                                <p class="style-p">If you are sick with COVID-19 or think you might have it, follow the
+                                    steps below to help protect other people in your home and community</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
     <footer>
         <div class="container" id="news">
             <div class="footer-boxs">
@@ -618,7 +833,7 @@
                 </div>
             </div>
             <div class="footer-text">
-                <p>© 2023 COVID-19. Template Made by<span> Basmga Team.</span> </p>
+                <p>© 2021 COVID-19. Template Made by<span> Hazem Abd El-Rahman.</span> </p>
 
                 <p>Disclaimer: We hope you find the information presented on this website useful. This website is for
                     general information and raise awareness of (2019-nCoV) only. All the information based on WHO, NHS
