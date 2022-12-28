@@ -11,7 +11,7 @@ let them = () => {
         div.style.color ="black";
         btn.textContent ="dark";
         btn.classList="btn btn-dark";
-        nav.style.background ="balck";
+        nav.style.background ="white";
         lists.style.color="#00000080";
         faqs.style.color="#262930";
         navID2.style.background="#ebebeb"; 
